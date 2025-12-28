@@ -2,8 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: dexterkbd
-      url-base: https://github.com/Dexter-KBD
+    - name: psymoney
+      url-base: https://github.com/psymoney
   projects:
     - name: zmk
       remote: zmkfirmware
