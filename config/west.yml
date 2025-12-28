@@ -2,15 +2,10 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: psymoney
-      url-base: https://github.com/psymoney
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: v0.3.0
       import: app/west.yml
-    - name: zmk-dongle-screen
-      remote: psymoney
-      revision: main
   self:
     path: config
