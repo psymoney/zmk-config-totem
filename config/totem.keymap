@@ -583,10 +583,10 @@
         Shortcut {
             display-name = "Shortcut";
             bindings = <
-                    &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)   &bt BT_CLR     &bt BT_SEL 0       &bt BT_DISC 0        &kp LG(N7)     &kp LG(N8)     &kp LG(N9)     &kp LG(N0)
-                    &kp LA(LC(A))     &kp LA(LC(S))     &kp LA(LC(D))      &kp LA(LC(F))  &bt BT_SEL 1       &bt BT_DISC 1        &kp LA(LC(J))  &kp LA(LC(K))  &kp LA(LC(L))  &trans
-&kp LC(LS(ESCAPE))  &kp Z             &kp LA(LC(X))     &kp LA(LC(C))      &kp LA(LC(V))  &bt BT_SEL 2       &bt BT_DISC 2        &trans         &trans         &trans         &kp C_SLEEP  &kp C_SLEEP_MODE
-                                                        &kp C_VOLUME_DOWN  &trans         &kp C_VOLUME_UP    &kp C_AL_CALCULATOR  &kp LG(A)      &kp LG(N)
+                    &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)   &bt BT_CLR      &bt BT_SEL 0       &bt BT_DISC 0        &bt BT_CLR      &kp LG(N8)     &kp LG(N9)     &kp LG(N0)
+                    &kp LA(LC(A))     &kp LA(LC(S))     &kp LA(LC(D))      &bt BT_CLR_ALL  &bt BT_SEL 1       &bt BT_DISC 1        &bt BT_CLR_ALL  &kp LA(LC(K))  &kp LA(LC(L))  &trans
+&kp LC(LS(ESCAPE))  &kp Z             &kp LA(LC(X))     &kp LA(LC(C))      &kp LA(LC(V))   &bt BT_SEL 2       &bt BT_DISC 2        &trans          &trans         &trans         &kp C_SLEEP  &kp C_SLEEP_MODE
+                                                        &kp C_VOLUME_DOWN  &trans          &kp C_VOLUME_UP    &kp C_AL_CALCULATOR  &kp LG(A)       &kp LG(N)
             >;
         };
     };
